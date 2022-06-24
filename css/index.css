@@ -1,35 +1,32 @@
-body {
-  height: 5000px;
+nav {
+  height: 50px;
+  background-color: lightgrey;
+}
+.inline-block {
+  padding: 15px;
+  display: inline-block;
 }
 .left {
-  width: 50%;
-  background-color: purple;
+  float: left;
+  height: 500px;
+  background-color: lightblue;
+  width: 30%;
+  text-align: center;
 }
 .right {
-  width: 50%;
-  background-color: green;
+  float: left;
+  background-color: lightgreen;
+  height: 500px;
+  width: 70%;
+  text-align: center;
 }
-.relative {
-  background-color: lightblue;
-  height: 250px;
-  padding: 30px;
-  margin: 10px;
-  display: flex;
-  position: relative;
-}
-.absolute {
-  height: 50px;
-  width: 50px;
-  background-color: red;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.fixed {
+
+.card {
+  display: inline-block;
+  background-color: #C6C6C6;
+  border-radius: 5px;
   height: 200px;
-  width: 200px;
-  background-color: green;
-  position: fixed;
-  bottom: 0;
-  right: 0;
+  width: 150px;
+  margin: 35px;
+  margin-top: 50px;
 }
